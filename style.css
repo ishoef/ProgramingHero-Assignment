@@ -9,6 +9,9 @@ body {
     height: 100vh;
 }
 
+
+/* ______________________Header____________________ */
+
 .logo-pic { 
     width: 160px;
 }
@@ -36,6 +39,8 @@ body {
     color: black;
     font-size: 30px;
 }
+
+/* ______________________Section-1_____________________ */
 
 .sec-1 {
     width: 80%;
@@ -95,6 +100,9 @@ span {
     margin-left: 20px;
 }
 
+
+/* _____________________Section-2____________________ */
+
 .sec-2 {
     width: 80%;
     height: 250px;
@@ -110,6 +118,7 @@ span {
 .pro-title {
     font-size: 50px;
     font-weight: 600;
+    text-align: center;
 }
 
 .pro-para {
@@ -118,14 +127,24 @@ span {
     color: #c7c1c1;
 }
 
+
+/* ___________________section-3__________________ */
+
+
 .sec-3 {
     width: 100%;
     height: 500px;
     background-color: #0f1221;
     margin-top: 100px;
     color: white;
+}
+
+.sec-3-content {
+    width: 80%;
+    height: 500px;
+    margin: auto;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -146,12 +165,16 @@ span {
 
 .sec-3-para {
     font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 300;
 }
 
 .isoer {
     font-size: 40px;
 
 }
+
+/* ______________________Section-4_______________________ */
 
 .sec-4 {
     width: 80%;
@@ -165,24 +188,24 @@ span {
     height: 500vpx;
     margin: auto;
     margin-top: 30px;
-    font-size: 30px;
-   
-}
-
-.lin-1 {
-    width: 100%;
-    height: 30px;
-    margin-top: 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center; 
+    font-size: 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-/* _____________________sec-5_______________________ */
+.line-1 {
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 25px;
+}
 
+.line-1 p {
+    margin-top: 25px;
+}
+
+
+/* _____________________sec-5_______________________ */
 
 
 .sec-5 {
